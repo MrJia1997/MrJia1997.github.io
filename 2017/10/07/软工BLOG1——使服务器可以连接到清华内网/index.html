@@ -6,18 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2017 | Mr.Jia Tech Blog</title>
+  <title>软工BLOG1——使服务器可以连接到清华内网 | Mr.Jia Tech Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Currently for SE course">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mr.Jia Tech Blog">
-<meta property="og:url" content="http://yoursite.com/archives/2017/index.html">
+  <meta name="description" content="（非常欢迎各种改进意见） 由于某些众所周知的原因，清华的账号密码校验网站https://id.tsinghua.edu.cn不再可以从学校外部的机器上进行直接访问，这对于我们的工作造成了比较大的困扰。因此我们尝试将服务器利用sslvpn的方式连入清华内网使之可以访问。需要注意的是，这种连接可能使得该机器对于其他地址的连接产生异常情况，所以**请记得在不需要的时候关闭OpenConnect**。 实">
+<meta name="keywords" content="软工">
+<meta property="og:type" content="article">
+<meta property="og:title" content="软工BLOG1——使服务器可以连接到清华内网">
+<meta property="og:url" content="http://yoursite.com/2017/10/07/软工BLOG1——使服务器可以连接到清华内网/index.html">
 <meta property="og:site_name" content="Mr.Jia Tech Blog">
-<meta property="og:description" content="Currently for SE course">
+<meta property="og:description" content="（非常欢迎各种改进意见） 由于某些众所周知的原因，清华的账号密码校验网站https://id.tsinghua.edu.cn不再可以从学校外部的机器上进行直接访问，这对于我们的工作造成了比较大的困扰。因此我们尝试将服务器利用sslvpn的方式连入清华内网使之可以访问。需要注意的是，这种连接可能使得该机器对于其他地址的连接产生异常情况，所以**请记得在不需要的时候关闭OpenConnect**。 实">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-10-07T09:57:10.522Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mr.Jia Tech Blog">
-<meta name="twitter:description" content="Currently for SE course">
+<meta name="twitter:title" content="软工BLOG1——使服务器可以连接到清华内网">
+<meta name="twitter:description" content="（非常欢迎各种改进意见） 由于某些众所周知的原因，清华的账号密码校验网站https://id.tsinghua.edu.cn不再可以从学校外部的机器上进行直接访问，这对于我们的工作造成了比较大的困扰。因此我们尝试将服务器利用sslvpn的方式连入清华内网使之可以访问。需要注意的是，这种连接可能使得该机器对于其他地址的连接产生异常情况，所以**请记得在不需要的时候关闭OpenConnect**。 实">
   
     <link rel="alternative" href="/atom.xml" title="Mr.Jia Tech Blog" type="application/atom+xml">
   
@@ -155,36 +157,47 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-软工BLOG1——使服务器可以连接到清华内网" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/10/07/软工BLOG1——使服务器可以连接到清华内网/" class="archive-article-date">
-  	<time datetime="2017-10-07T09:56:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-07</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/10/07/软工BLOG1——使服务器可以连接到清华内网/">软工BLOG1——使服务器可以连接到清华内网</a>
+    <h1 class="article-title" itemprop="name">
+      软工BLOG1——使服务器可以连接到清华内网
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/10/07/软工BLOG1——使服务器可以连接到清华内网/" class="archive-article-date">
+  	<time datetime="2017-10-07T09:56:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-07</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>（非常欢迎各种改进意见）</p>
+<p>由于某些众所周知的原因，清华的账号密码校验网站<a href="https://id.tsinghua.edu.cn不再可以从学校外部的机器上进行直接访问，这对于我们的工作造成了比较大的困扰。因此我们尝试将服务器利用sslvpn的方式连入清华内网使之可以访问。需要注意的是，这种连接可能使得该机器对于其他地址的连接产生异常情况，所以**请记得在不需要的时候关闭OpenConnect**。" target="_blank" rel="external">https://id.tsinghua.edu.cn不再可以从学校外部的机器上进行直接访问，这对于我们的工作造成了比较大的困扰。因此我们尝试将服务器利用sslvpn的方式连入清华内网使之可以访问。需要注意的是，这种连接可能使得该机器对于其他地址的连接产生异常情况，所以**请记得在不需要的时候关闭OpenConnect**。</a></p>
+<p>实验环境为Ubuntu 16.04。</p>
+<h3 id="OpenConnect-Juniper-VPN"><a href="#OpenConnect-Juniper-VPN" class="headerlink" title="OpenConnect + Juniper VPN"></a>OpenConnect + Juniper VPN</h3><p>我们知道清华鼓励用户们使用pulse secure来进行sslvpn的连接。这种连接可以使得用户在外网可以访问到tsinghua.edu.cn域名上的内容而不会得到403 Forbidden错误。比较可惜的是，pulse secure并没有官方发布的Ubuntu版本，而且一个第三方版本仅能在客户端而非服务器端使用。因此我们使用OpenConnect + Juniper VPN的方式来实现连接。</p>
+<p>首先安装OpenConnect和vpnc-script</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install openconnect</div><div class="line">wget http://git.infradead.org/users/dwmw2/vpnc-scripts.git/blob_plain/HEAD:/vpnc-script</div><div class="line">(sudo) mkdir /etc/vpnc</div><div class="line">mv vpnc-script /etc/vpnc</div></pre></td></tr></table></figure>
+<p>然后使用如下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">(sudo) openconnect -u [your student id] --juniper https://sslvpn.tsinghua.edu.cn</div></pre></td></tr></table></figure>
+<p>之后输入yes，输入你的密码就可以连入清华内网了。</p>
+<p>使用Ctrl+C可以关闭VPN。</p>
+<p>可以添加-b参数实现后台运行，-q减少控制台输出。</p>
+<p>关闭的时候kill掉相关进程，重启终端就可以了。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">(sudo) killall openconnect</div></pre></td></tr></table></figure>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -196,46 +209,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/10/07/软工BLOG1——使服务器可以连接到清华内网/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/10/07/hello-world/" class="archive-article-date">
-  	<time datetime="2017-10-07T07:23:23.742Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-07</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2017/10/07/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/10/07/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -258,8 +331,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
