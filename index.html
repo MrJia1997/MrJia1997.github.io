@@ -178,6 +178,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>（非常欢迎各种改进意见）</p>
+<p><strong><em>注：使用清华网络内的电脑进行设置可能会出现连接服务器超时的情况，请谨慎尝试！</em></strong></p>
 <p>由于某些众所周知的原因，清华的账号密码校验网站 <a href="https://id.tsinghua.edu.cn" target="_blank" rel="external">https://id.tsinghua.edu.cn</a> 不再可以从学校外部的机器上进行直接访问，这对于我们的工作造成了比较大的困扰。因此我们尝试将服务器利用sslvpn的方式连入清华内网使之可以访问。需要注意的是，这种连接可能使得该机器对于其他地址的连接产生异常情况，所以<strong>请记得在不需要的时候关闭OpenConnect</strong>。</p>
 <p>实验环境为Ubuntu 16.04。</p>
 <h3 id="OpenConnect-Juniper-VPN"><a href="#OpenConnect-Juniper-VPN" class="headerlink" title="OpenConnect + Juniper VPN"></a>OpenConnect + Juniper VPN</h3><p>我们知道清华鼓励用户们使用pulse secure来进行sslvpn的连接。这种连接可以使得用户在外网可以访问到tsinghua.edu.cn域名上的内容而不会得到403 Forbidden错误。比较可惜的是，pulse secure并没有官方发布的Ubuntu版本，而且一个第三方版本仅能在客户端而非服务器端使用。因此我们使用OpenConnect + Juniper VPN的方式来实现连接。</p>
